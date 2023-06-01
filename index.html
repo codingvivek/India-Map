@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stateMap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>  
+    <div class="container-fluid text-white py-5" style="background-color: black;">
+        <h1 class="text-center">India Map</h1>
+        <h5 class="text-center">Search Five State</h5>
+    </div>
+    <div class="container col-6 mt-5">
+        <input type="text" class="form-control mb-5 p-3"placeholder="Search Here...." id="search-input">
+    <u1 class="list-group list-group-flush text-primary h5">
+
+        <li class="list-group-item p-3">Delhi</li>
+        <li class="list-group-item p-3">Mumbai</li>
+        <li class="list-group-item p-3">Chennai</li>
+        <li class="list-group-item p-3">Kanpur</li>
+        <li class="list-group-item p-3">Kashmir</li>
+    </u1>
+    </div>
+    <div id="demobox">
+        <div id="map">
+            <div id="select"></div>
+        </div>
+    </div> <!-- demobox -->
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//d3js.org/d3-queue.v3.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="stateMap.js"></script>
+</body>
+</html>
